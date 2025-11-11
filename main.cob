@@ -195,8 +195,8 @@
            display "true square " ws-square-true.
 
        compare-square section.
-           if ws-square-sum-all equal ws-square-sum-1 and 
-             ws-square-sum-2 and ws-square-sum-3 and ws-square-sum-4 and
+           if ws-square-sum-all equal ws-square-sum-1 and
+             ws-squaresum-2 and ws-square-sum-3 and ws-square-sum-4 and
              ws-square-sum-5 and ws-square-sum-6 and ws-square-sum-7 and
              ws-square-sum-8 and ws-square-sum-9
            then move 1 to ws-square-true
@@ -207,7 +207,7 @@
            if ws-col-sum-all equal ws-col-sum-1 and ws-col-sum-2 and
              ws-col-sum-3 and ws-col-sum-4 and ws-col-sum-5 and
              ws-col-sum-6 and ws-col-sum-7 and ws-col-sum-8 and
-             ws-col-sum-9 
+             ws-col-sum-9
            then move 1 to ws-col-true
            end-if.
        end-compare-col.
@@ -216,7 +216,7 @@
            if ws-row-sum-all equal ws-row-sum-1 and ws-row-sum-2 and
              ws-row-sum-3 and ws-row-sum-4 and ws-row-sum-5 and
              ws-row-sum-6 and ws-row-sum-7 and ws-row-sum-8 and
-             ws-row-sum-9 
+             ws-row-sum-9
            then move 1 to ws-row-true
            end-if.
        end-compare-row.
