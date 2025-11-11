@@ -144,6 +144,27 @@
        01 ws-square-true pic 9 value 0.
        77 ws-square-sum-all pic 99 value 45.
 
+       01 ws-display-game-array.
+         05 filler pic **.
+         05 ws-1-1 pic 9 value 0.
+         05 filler pic *.
+         05 ws-1-2 pic 9 value 0.
+         05 filler pic *.
+         05 ws-1-3 pic 9 value 0.
+         05 filler pic **.
+         05 ws-1-4 pic 9 value 0.
+         05 filler pic *.
+         05 ws-1-5 pic 9 value 0.
+         05 filler pic *.
+         05 ws-1-6 pic 9 value 0.
+         05 filler pic **.
+         05 ws-1-7 pic 9 value 0.
+         05 filler pic *.
+         05 ws-1-8 pic 9 value 0.
+         05 filler pic *.
+         05 ws-1-9 pic 9 value 0.
+         05 filler pic **.
+
        procedure division.
            perform calc-col-summery thru end-calc-col-summery.
            perform calc-row-summery thru end-calc-row-summery.
@@ -190,7 +211,7 @@
            then move 1 to ws-col-true
            end-if.
        end-compare-col.
-       
+
        compare-row section.
            if ws-row-sum-all equal ws-row-sum-1 and ws-row-sum-2 and
              ws-row-sum-3 and ws-row-sum-4 and ws-row-sum-5 and
@@ -277,7 +298,7 @@
            ws-column-9-6 + ws-column-9-7 + ws-column-9-8 + ws-column-9-9
            end-compute.
        end-calc-row-summery.
-        
+
        calc-col-summery section.
            compute ws-col-sum-1 =
            ws-column-1-1 + ws-column-2-1+ws-column-3-1+ws-column-4-1+
