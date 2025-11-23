@@ -196,7 +196,7 @@
 
        compare-square section.
            if ws-square-sum-all equal ws-square-sum-1 and
-             ws-squaresum-2 and ws-square-sum-3 and ws-square-sum-4 and
+             ws-square-sum-2 and ws-square-sum-3 and ws-square-sum-4 and
              ws-square-sum-5 and ws-square-sum-6 and ws-square-sum-7 and
              ws-square-sum-8 and ws-square-sum-9
            then move 1 to ws-square-true
