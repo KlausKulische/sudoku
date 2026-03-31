@@ -145,196 +145,196 @@
        77 ws-square-sum-all pic 99 value 45.
 
        01 ws-display-game-array-borders.
-         05 filler pic *(23).
+         05 filler pic *(41).
 
        01 ws-display-game-array-row-1.
-         05 filler pic **.
+         05 filler pic xxx value '** '.
          05 ws-1-1 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-1-2 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-1-3 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-1-4 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-1-5 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-1-6 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-1-7 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-1-8 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-1-9 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxx value ' **'.
 
        01 ws-display-game-array-row-2.
-         05 filler pic **.
+         05 filler pic xxx value '** '.
          05 ws-2-1 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-2-2 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-2-3 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-2-4 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-2-5 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-2-6 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-2-7 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-2-8 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-2-9 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxx value ' **'.
 
        01 ws-display-game-array-row-3.
-         05 filler pic **.
+         05 filler pic xxx value '** '.
          05 ws-3-1 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-3-2 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-3-3 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-3-4 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-3-5 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-3-6 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-3-7 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-3-8 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-3-9 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxx value ' **'.
 
        01 ws-display-game-array-row-4.
-         05 filler pic **.
+         05 filler pic xxx value '** '.
          05 ws-4-1 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-4-2 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-4-3 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-4-4 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-4-5 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-4-6 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-4-7 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-4-8 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-4-9 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxx value ' **'.
 
        01 ws-display-game-array-row-5.
-         05 filler pic **.
+         05 filler pic xxx value '** '.
          05 ws-5-1 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-5-2 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-5-3 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-5-4 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-5-5 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-5-6 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-5-7 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-5-8 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-5-9 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxx value ' **'.
 
        01 ws-display-game-array-row-6.
-         05 filler pic **.
+         05 filler pic xxx value '** '.
          05 ws-6-1 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-6-2 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-6-3 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-6-4 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-6-5 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-6-6 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-6-7 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-6-8 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-6-9 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxx value ' **'.
 
        01 ws-display-game-array-row-7.
-         05 filler pic **.
+         05 filler pic xxx value '** '.
          05 ws-7-1 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-7-2 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-7-3 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-7-4 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-7-5 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-7-6 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-7-7 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-7-8 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-7-9 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxx value ' **'.
 
        01 ws-display-game-array-row-8.
-         05 filler pic **.
+         05 filler pic xxx value '** '.
          05 ws-8-1 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-8-2 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-8-3 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-8-4 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-8-5 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-8-6 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-8-7 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-8-8 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-8-9 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxx value ' **'.
 
        01 ws-display-game-array-row-9.
-         05 filler pic **.
+         05 filler pic xxx value '** '.
          05 ws-9-1 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-9-2 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-9-3 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-9-4 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-9-5 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-9-6 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxxx value ' ** '.
          05 ws-9-7 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-9-8 pic 9 value 0.
-         05 filler pic *.
+         05 filler pic xxx value ' * '.
          05 ws-9-9 pic 9 value 0.
-         05 filler pic **.
+         05 filler pic xxx value ' **'.
 
        procedure division.
            perform calc-col-summery thru end-calc-col-summery.
